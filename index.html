@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index.follow"/>
-    <meta name="descripcion" content="Bienvenidos a mi pagina en donde encontraran todos mis proyectos y conocimientos"/>
+    <meta name="descripcion" content="Bienvenidos a mi pagina en donde encontraran todos mis proyectos y conocimientos"/>   
     <title>My page</title>
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -23,21 +23,29 @@
     </header>
     <main>
         <p>Porque elegirme </p>
-        <ul> 
+        <ul class="main_eleccion"> 
             <li>Estudio</li>
             <li>Voy al Gym </li>
             <li>Trabajo</li>
             <li>Soy mas conciente</li>
         </ul>
+        <p>Acerca de mi </p>
+        <ul class="main_background"> 
+            <li><a href="#">Estudios</a></li>
+            <li><a href="#">Experencia</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Que quiero a futuro</a></li>
+        </ul>
+
         <a href="https://www.linkedin.com/in/kevin-felipe-goyes-alfonso-640570189/"> Mi perfil en linkedin</a>
         <br>
         <input placeholder="Tienes preguntas?">
         <br>
-        <h3>Imagen</h3>
+        <h3 class="tituloimagen">Imagen</h3>
         <img src="https://giffiles.alphacoders.com/215/215391.gif" width="400" height="250" id="imagen1">
-        <h3>Video</h3>
+        <h3 class="titulovideo">Video</h3>
         <iframe width="400" height="250" src="https://www.youtube.com/embed/zp6xM6Aezmg?si=VJHqWm_QBD8nBvrT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen preload="auto"></iframe>
-        <h3>Formulario</h3>
+        <h3 id="tituloformulario">Formulario</h3>
         <form action="">
             <label for="nombrecliente">
                 <span>Coloca tu nombre </span>
@@ -78,6 +86,8 @@
             
 
         </form>
+
+        <p class="parrafohp">Por que no sirvo gonorrea </p>
         
         
         <script src="/index.js"></script>

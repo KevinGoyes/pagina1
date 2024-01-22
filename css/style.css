@@ -1,0 +1,25 @@
+.tituloimagen {
+    font-size: 30px;
+    color: limegreen;
+}
+
+.titulovideo {
+    font-size: 30px;
+    color: rgb(43, 70, 224);
+
+}
+
+#tituloformulario {
+    font-size: 30px;
+    color: rgb(187, 50, 205);
+}
+
+.parrafohp {
+    font-size: 70px;
+    color: limegreen;
+}
+
+.main_eleccion {
+    font-size: 20px;
+    color: maroon;
+}
