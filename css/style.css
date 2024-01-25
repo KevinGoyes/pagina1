@@ -1,3 +1,30 @@
+.nav_main_background{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: blueviolet;
+}
+
+.nav_main_background p {
+    display: inline-block;
+}
+
+.nav_main_background a:hover {
+    color: black;
+}
+
+.nav_main_background p::after {
+    content: "|"
+}
+
+.nav_main_background a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
 .tituloimagen {
     font-size: 30px;
     color: limegreen;
@@ -14,12 +41,15 @@
     color: rgb(187, 50, 205);
 }
 
-.parrafohp {
-    font-size: 70px;
-    color: limegreen;
-}
-
 .main_eleccion {
     font-size: 20px;
     color: maroon;
+}
+
+.main_background {
+    font-size: 20px;
+    color: maroon;
+    margin-top: 10px;
+    padding: 20px;
+    display: inline-block;
 }
